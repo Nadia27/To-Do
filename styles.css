@@ -6,4 +6,12 @@
 
 .title {
   font-family: 'Lemon', cursive;
+  font-size: 3rem; 
+}
+
+li {
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
+  list-style-type: none;
+
 }
