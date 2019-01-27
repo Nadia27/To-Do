@@ -8,7 +8,7 @@ var inputField = document.getElementById("input-field");
 inputField.addEventListener("keyup", function(event) {
 	event.preventDefault();
 	if (event.keyCode === 13) { // keyCode === 13 enter key
-		document.querySelector("button").click(); //
+		document.querySelector("button").click(); // simulate mouse click if "enter" button is pressed
     var listItem = document.createElement("LI"); // create li element
 		var userInput = document.getElementById("input-field").value; // grab text from field
     var textNode = document.createTextNode(userInput); // create text node from user input
