@@ -82,6 +82,9 @@ li {
 }
 
 footer {
+  color: #008CBA;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
   position: absolute;
   bottom: 0;
   width: 100%;
