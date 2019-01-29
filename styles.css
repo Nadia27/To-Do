@@ -1,6 +1,7 @@
 html, body {
+  background-image: url("./images/doodles.png");
   height: 100%;
- position: relative;
+  position: relative;
 }
 
 
@@ -41,7 +42,7 @@ li {
   text-decoration: line-through;
 }
 
-footer { 
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
