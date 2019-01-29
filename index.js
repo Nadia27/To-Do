@@ -36,6 +36,4 @@ function inputTask(event) {
 function deleteTask() {
   var item = document.getElementById(this.id);
   item.classList.add("completed");
-  console.log(item);
-
 }

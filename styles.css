@@ -4,10 +4,10 @@ html, body {
   position: relative;
 }
 
-
 .container {
   min-height: 100%;
   margin: auto;
+  overflow: hidden;
   padding-bottom: 100px;
   position: relative;
   width: 80%;
@@ -15,8 +15,45 @@ html, body {
 }
 
 .title {
+  color: #008CBA;
   font-family: 'Lemon', cursive;
   font-size: 3rem;
+}
+
+p {
+  color: #008CBA;
+  font-family: 'Lemon', cursive;
+  font-size: 1rem;
+  margin: 30px;
+
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #008CBA;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 20px;
+  width: 40%;
+}
+
+#submit-btn {
+  background-color: white;
+  border: 2px solid #008CBA;
+  border-radius: 8px;
+  color: #008CBA;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 10px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#submit-btn:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
 #list {
@@ -25,7 +62,7 @@ html, body {
 
 
 li {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   list-style-type: none;
   padding: 8px;
@@ -33,8 +70,10 @@ li {
 }
 
 .todo-item {
-  border : 2px solid grey;
+  border : 2px solid #008CBA;
   border-radius: 8px;
+  background-color: #008CBA;
+  color: white;
   margin: 15px auto;
 }
 
