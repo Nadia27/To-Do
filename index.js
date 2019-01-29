@@ -9,7 +9,6 @@ var button = document.getElementById("submit-btn");
 
 inputField.addEventListener("keyup", function() {
   if (event.keyCode === 13) { // keyCode === 13 enter key
-    event.preventDefault();
     inputTask();
   }
 });
