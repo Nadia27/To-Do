@@ -31,10 +31,7 @@ function inputTask(event) {
     }
   }
   console.log(listItem);
-
 }
-
-
 
 // add EventListener to listItems
 function deleteTask() {

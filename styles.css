@@ -13,7 +13,15 @@ li {
   font-family: 'Satisfy', cursive;
   font-size: 1.5rem;
   list-style-type: none;
+  width: 50%;
 }
+
+.todo-item {
+  border : 2px solid grey;
+  border-radius: 8px;
+  margin: 15px auto;
+}
+
 
 .completed {
   text-decoration: line-through;
